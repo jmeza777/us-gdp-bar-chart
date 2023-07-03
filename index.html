@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.2/d3.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>US GDP</title>
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <div id="title">United States GDP</div>
+            <div id="tooltip"></div>
+            <div class="overlay"></div>
+            <svg width="900" height="460">
+             <text transform="rotate(-90)" x="-200" y="80">Gross Domestic Product</text>
+             <text x="520" y="450" class="info">More Information: http://www.bea.gov/national/pdf/nipaquid.pdf</text> 
+             <g fill="none" font-size="10" font-family="sans-serif" text-anchor="middle" id="x-axis" transform="translate(60, 400)"></g>
+             <g fill="none" font-size="10" font-family="sans-serif" text-anchor="end" id="y-axis" transform="translate(60, 0)"></g>  
+            </svg>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
